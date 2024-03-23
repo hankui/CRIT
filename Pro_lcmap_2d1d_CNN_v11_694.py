@@ -1,5 +1,6 @@
 #**************************************************************************************************************************************************************************************************
-# v11_691 (used in the paper) on Dec 27, 2023
+# v11_694 (used in the paper - 1D CNN applied on irrigular time series) on Dec 27, 2023
+# v11_691 (used in the paper CRIT and added time count) on Dec 27, 2023
 # v10_0 fix the use the right training tricks, i.e., (i) single schedule, (ii) DOY norm by mean and std, and (iii) logits = True should go without softmax 
     ## v10_01 fix the prediction adding softmax ! This is the version ! 
     ## v10_02 use 60 epochs rather than 70 (not as good as v10_01) 
