@@ -1,5 +1,5 @@
 # CRIT
-Classifying the raw irregular time series (CRIT) using Transformer codes for the paper: 
+Classifying the raw irregular time series (CRIT) codes using Transformer for the paper: 
 Zhang, H. K., Luo, D., & Li, Z. (2024). Classifying raw irregular time series (CRIT) for large area land cover mapping by adapting transformer model. Science of Remote Sensing, 100123.
 https://doi.org/10.1016/j.srs.2024.100123
 
