@@ -7,7 +7,7 @@ Pro_load_model_run_tile_v2_5.py >> Use the trained CRIT model for land cover cla
 
 model.zip has the trained model and mean/std files. 
 
-The DEM data defined in Collection-2 Landsat ARD tiles can be find in WHERE. 
+The DEM data defined in Collection-2 Landsat ARD tiles can be find in https://zenodo.org/records/13875964. 
 
 The reference training and testing data saved in csv can be found in https://zenodo.org/records/8097697 (LCMAP_CU_Landsat_ARD.DAILY.85.06.18.24997.sensor.st.dem.csv)
 
