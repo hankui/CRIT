@@ -22,13 +22,15 @@ import importlib
 print(socket.gethostname())
 base_name = "this_log_"+socket.gethostname()
 
-IS_TEST = 0 ## generate the model 
-IS_TEST = 1 ## training and testing evaluation 
+IS_TEST = 0 ## generate a model for CONUS land cover mapping using all training samples
+# IS_TEST = 1 ## training and testing evaluation using 80% and 20% split 
 
 #*****************************************************************************************************************
-## load csv file
-csv_dir = './LCMAP_CU_Landsat_ARD.DAILY.85.06.18.24997.sensor.st.dem.csv'
-new_file = "./LCMAP_CU_Landsat_ARD.DAILY.metric.no.ice.sensor3years.st.dem.v2.csv"
+## csv file and temporay files 
+DATA_DIR = '/mmfs1/scratch/jacks.local/dong.luo/lcmap/features/'
+DATA_DIR = '/mmfs1/scratch/jacks.local/hankui.zhang/ARD_C2/features/'
+csv_dir = DATA_DIR+'LCMAP_CU_Landsat_ARD.DAILY.85.06.18.24997.sensor.st.dem.csv'
+new_file = DATA_DIR+"LCMAP_CU_Landsat_ARD.DAILY.metric.no.ice.sensor3years.st.dem.v2.csv"
 new_file_fixed_LST = "./LCMAP_CU_Landsat_ARD.DAILY.metric.no.ice.sensor3years.st.dem.v2.lstfixed.csv"
 
 ####################################################################################################################################
