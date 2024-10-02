@@ -5,6 +5,7 @@ https://doi.org/10.1016/j.srs.2024.100123
 
 Pro_load_model_run_tile_v2_5.py >> Use the trained CRIT model for land cover classification, including code to load ARD tiles, DEM, and the trained models for land cover mapping.
 
+model.zip has the trained model and mean/std files. 
 
 The DEM data defined in Collection-2 Landsat ARD tiles can be find in WHERE. 
 
