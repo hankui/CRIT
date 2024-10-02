@@ -12,8 +12,7 @@ The DEM data defined in Collection-2 Landsat ARD tiles can be find in WHERE.
 The reference training and testing data saved in csv can be found in https://zenodo.org/records/8097697 (LCMAP_CU_Landsat_ARD.DAILY.85.06.18.24997.sensor.st.dem.csv)
 
 Pro_lcmap_CRIT_v11_69.py  >> CRIT codes including loading csv file, pre-processing data, splitting train and test data, CRIT training and evaluation, and saving trained model
-	
- 	train_test.py
+	train_test.py
 	transformer_encoder44.py
 	customized_train.py
 	split folder: the split file use to define training and testing split that generate the results in Zhang et al. (2024)
